@@ -1,0 +1,48 @@
+baseURL = "https://dimitrygrebenyuk.ru/"
+title = "Dimitry Grebenyuk"
+theme = "etch"
+languageCode = "en-US"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  description = "Dimitry Grebenyuk"
+  copyright = "© 2026 Dimitry Grebenyuk"
+  dark = "auto"
+  highlight = true
+
+[taxonomies]
+  # Disabled - not using categories or tags
+
+[params.meta]
+  favicon = true
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allows HTML in Markdown
+  unsafe = true
+
+[[languages.en.menu.main]]
+  identifier = "cv"
+  name = "cv"
+  url = "/cv.pdf"
+  weight = 20
+
+[[languages.en.menu.main]]
+  identifier = "github"
+  name = "github"
+  url = "https://github.com/grebenyyk"
+  weight = 10
+[[languages.en.menu.main]]
+  identifier = "Google Scholar"
+  name = "publications"
+  url = "https://scholar.google.com/citations?user=pNWZLJoAAAAJ&hl=en"
+  weight = 5
+[[languages.en.menu.main]]
+  identifier = "e-mail"
+  name = "E-mail"
+  url = "mailto:dimitrygrebenyuk@icloud.com"
+  weight = 1

@@ -1,0 +1,62 @@
+baseurl = "https://grebenyyk.github.io/"
+languageCode = "en-us"
+theme = "etch"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  #contentTypeName = "posts"
+  #subtitle = "sdfsdfsdf"
+  description = ""
+  #highlight = true
+
+
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Dimitry Grebenyuk"
+    owner = ""
+    keywords = ""
+    copyright = "Copyright © 2022 Dimitry Grebenyuk"
+    #menuMore = "Menu"
+    #readMore = ""
+    #readOtherPosts = "Read other posts"
+    #newerPosts = "Newer posts"
+    #olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+      identifier = "posts"
+     name = "posts"
+      title = "posts"
+      url = "/posts/"
+      weight = 10
+
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "about"
+      title = "about"
+      url = "/about/"
+      weight = 20
+      [[languages.en.menu.main]]
+        identifier = "Instagram"
+        name = "Instagram"
+        url = "https://instagram.com/grebenyyk"
+      [[languages.en.menu.main]]
+        identifier = "Twitter"
+        name = "Twitter"
+        url = "https://twitter.com/grebenyyk"
+      [[languages.en.menu.main]]
+        identifier = "Google Scholar"
+        name = "Google Scholar"
+        url = "https://scholar.google.com/citations?user=pNWZLJoAAAAJ&hl=en"
+      [[languages.en.menu.main]]
+        identifier = "e-mail"
+        name = "E-mail"
+        url = "mailto:dimitrygrebenyuk@gmail.com"
